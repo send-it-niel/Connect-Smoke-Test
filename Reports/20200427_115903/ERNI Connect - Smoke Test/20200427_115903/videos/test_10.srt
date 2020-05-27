@@ -1,0 +1,80 @@
+1
+00:00:00,202 --> 00:00:00,202
+1. callTestCase(findTestCase("Modular Component/FIRST TC Open Connect (Delay 10s)"), ["URL":"https://connect-test.erninet.ch/3#Home"], STOP_ON_FAILURE)
+
+2
+00:00:00,285 --> 00:00:00,285
+1. openBrowser("")
+
+3
+00:00:00,427 --> 00:00:00,427
+5. maximizeWindow()
+
+4
+00:00:00,441 --> 00:00:00,441
+9. navigateToUrl(TEST)
+
+5
+00:00:00,552 --> 00:00:00,552
+13. delay(5)
+
+6
+00:00:05,556 --> 00:00:05,556
+5. callTestCase(findTestCase("Modular Component/Click - People Search (Delay 10s)"), [:], STOP_ON_FAILURE)
+
+7
+00:00:05,623 --> 00:00:05,623
+1. delay(10)
+
+8
+00:00:15,625 --> 00:00:15,625
+5. click(findTestObject("Smoke Test/People - People Search/Link - Objects/Link - Dashboard - People Search"))
+
+9
+00:00:15,958 --> 00:00:15,958
+9. delay(10)
+
+10
+00:00:25,964 --> 00:00:25,964
+9. verifyElementVisibleInViewport(findTestObject("Smoke Test/People - People Search/Viewport - Objects/Table - Picture"), 1, CONTINUE_ON_FAILURE)
+
+11
+00:00:26,302 --> 00:00:26,302
+13. verifyElementVisibleInViewport(findTestObject("Smoke Test/People - People Search/Viewport - Objects/Table - Last Name"), 1, CONTINUE_ON_FAILURE)
+
+12
+00:00:26,674 --> 00:00:26,674
+17. verifyElementVisibleInViewport(findTestObject("Smoke Test/People - People Search/Viewport - Objects/Table - First Name"), 1, CONTINUE_ON_FAILURE)
+
+13
+00:00:26,997 --> 00:00:26,997
+21. verifyElementVisibleInViewport(findTestObject("Smoke Test/People - People Search/Viewport - Objects/Table - Short Name"), 1, CONTINUE_ON_FAILURE)
+
+14
+00:00:27,323 --> 00:00:27,323
+25. verifyElementVisibleInViewport(findTestObject("Smoke Test/People - People Search/Viewport - Objects/Table - Level"), 1, CONTINUE_ON_FAILURE)
+
+15
+00:00:27,651 --> 00:00:27,651
+29. verifyElementVisibleInViewport(findTestObject("Smoke Test/People - People Search/Viewport - Objects/Table - Service Levels"), 1, CONTINUE_ON_FAILURE)
+
+16
+00:00:27,978 --> 00:00:27,978
+33. verifyElementVisibleInViewport(findTestObject("Smoke Test/People - People Search/Viewport - Objects/Table - Preferred Domain"), 1, CONTINUE_ON_FAILURE)
+
+17
+00:00:28,306 --> 00:00:28,306
+37. verifyElementVisibleInViewport(findTestObject("Smoke Test/People - People Search/Viewport - Objects/Table - Domicile"), 1, CONTINUE_ON_FAILURE)
+
+18
+00:00:28,638 --> 00:00:28,638
+41. verifyElementVisible(findTestObject("Smoke Test/People - People Search/Viewport - Objects/Table - Superior"))
+
+19
+00:00:28,977 --> 00:00:28,977
+45. verifyElementVisible(findTestObject("Smoke Test/People - People Search/Viewport - Objects/Table - Available from"))
+
+20
+00:00:29,323 --> 00:00:29,324
+49. verifyElementVisible(findTestObject("Smoke Test/People - People Search/Viewport - Objects/Table - Availability"))
+

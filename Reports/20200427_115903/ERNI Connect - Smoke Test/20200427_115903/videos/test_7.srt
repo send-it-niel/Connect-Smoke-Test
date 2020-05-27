@@ -1,0 +1,40 @@
+1
+00:00:00,200 --> 00:00:00,200
+1. callTestCase(findTestCase("Modular Component/FIRST TC Open Connect (Delay 10s)"), ["URL":"https://connect-test.erninet.ch/3#Home"], STOP_ON_FAILURE)
+
+2
+00:00:00,291 --> 00:00:00,291
+1. openBrowser("")
+
+3
+00:00:00,445 --> 00:00:00,445
+5. maximizeWindow()
+
+4
+00:00:00,462 --> 00:00:00,462
+9. navigateToUrl(TEST)
+
+5
+00:00:00,524 --> 00:00:00,524
+13. delay(5)
+
+6
+00:00:05,533 --> 00:00:05,533
+5. callTestCase(findTestCase("Modular Component/Click - People Search (Delay 10s)"), [:], STOP_ON_FAILURE)
+
+7
+00:00:05,837 --> 00:00:05,837
+1. delay(10)
+
+8
+00:00:15,842 --> 00:00:15,843
+5. click(findTestObject("Smoke Test/People - People Search/Link - Objects/Link - Dashboard - People Search"))
+
+9
+00:00:16,179 --> 00:00:16,179
+9. delay(10)
+
+10
+00:00:26,190 --> 00:00:26,190
+9. verifyTextPresent("Casama Jeacel", false)
+

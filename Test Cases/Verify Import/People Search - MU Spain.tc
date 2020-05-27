@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>People Search - MU Spain</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>378c6b32-952a-48c0-adc3-fb6db89bcd8c</testCaseGuid>
+   <variable>
+      <defaultValue>'test'</defaultValue>
+      <description></description>
+      <id>e2f8d805-7461-4b43-9860-5fd457ef6c00</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>

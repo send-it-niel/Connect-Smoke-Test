@@ -1,0 +1,60 @@
+1
+00:00:00,203 --> 00:00:00,203
+1. callTestCase(findTestCase("Modular Component/FIRST TC Open Connect (Delay 10s)"), ["URL":"https://connect-test.erninet.ch/3#Home"], STOP_ON_FAILURE)
+
+2
+00:00:00,269 --> 00:00:00,269
+1. openBrowser("")
+
+3
+00:00:00,400 --> 00:00:00,400
+5. maximizeWindow()
+
+4
+00:00:00,420 --> 00:00:00,420
+9. navigateToUrl(TEST)
+
+5
+00:00:00,489 --> 00:00:00,489
+13. delay(5)
+
+6
+00:00:05,498 --> 00:00:05,498
+5. click(findTestObject("Smoke Test/Trainings/Training Employee Overview/Link/Trainings - Training Employee Overview"))
+
+7
+00:00:05,865 --> 00:00:05,865
+9. delay(10)
+
+8
+00:00:15,868 --> 00:00:15,868
+13. verifyElementVisibleInViewport(findTestObject("Smoke Test/Trainings/Training Employee Overview/Viewports/Trainining Employee - Tab"), 1, CONTINUE_ON_FAILURE)
+
+9
+00:00:16,311 --> 00:00:16,311
+17. verifyElementVisibleInViewport(findTestObject("Smoke Test/Trainings/Training Employee Overview/Viewports/Trainining Employee - Entity"), 1, CONTINUE_ON_FAILURE)
+
+10
+00:00:16,998 --> 00:00:16,999
+21. verifyElementVisibleInViewport(findTestObject("Smoke Test/Trainings/Training Employee Overview/Viewports/Trainining Employee - Search Field"), 1, CONTINUE_ON_FAILURE)
+
+11
+00:00:17,673 --> 00:00:17,673
+25. verifyElementVisibleInViewport(findTestObject("Smoke Test/Trainings/Training Employee Overview/Viewports/Trainining Employee - Filter"), 1, CONTINUE_ON_FAILURE)
+
+12
+00:00:18,358 --> 00:00:18,358
+29. verifyElementVisibleInViewport(findTestObject("Smoke Test/Trainings/Training Employee Overview/Viewports/Trainining Employee - Show Columns"), 1, CONTINUE_ON_FAILURE)
+
+13
+00:00:19,044 --> 00:00:19,044
+33. verifyElementVisibleInViewport(findTestObject("Smoke Test/Trainings/Training Employee Overview/Viewports/Trainining Employee - Employee Name"), 1, CONTINUE_ON_FAILURE)
+
+14
+00:00:19,377 --> 00:00:19,377
+37. verifyElementVisibleInViewport(findTestObject("Smoke Test/Trainings/Training Employee Overview/Viewports/Trainining Employee - Unit"), 1, CONTINUE_ON_FAILURE)
+
+15
+00:00:19,711 --> 00:00:19,711
+41. verifyElementVisibleInViewport(findTestObject("Smoke Test/Trainings/Training Employee Overview/Viewports/Trainining Employee - BA"), 1, CONTINUE_ON_FAILURE)
+

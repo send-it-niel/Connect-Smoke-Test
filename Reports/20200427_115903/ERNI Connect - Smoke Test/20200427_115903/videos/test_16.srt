@@ -1,0 +1,72 @@
+1
+00:00:00,196 --> 00:00:00,196
+1. callTestCase(findTestCase("Modular Component/FIRST TC Open Connect (Delay 10s)"), ["URL":"https://connect-test.erninet.ch/3#Home"], STOP_ON_FAILURE)
+
+2
+00:00:00,260 --> 00:00:00,260
+1. openBrowser("")
+
+3
+00:00:00,427 --> 00:00:00,427
+5. maximizeWindow()
+
+4
+00:00:00,443 --> 00:00:00,443
+9. navigateToUrl(TEST)
+
+5
+00:00:00,534 --> 00:00:00,534
+13. delay(5)
+
+6
+00:00:05,543 --> 00:00:05,543
+5. click(findTestObject("Smoke Test/Trainings/Curriculum Trainings Overview/Link/Trainings - Curriculum Trainings"))
+
+7
+00:00:05,925 --> 00:00:05,925
+9. delay(10)
+
+8
+00:00:15,931 --> 00:00:15,931
+13. verifyElementVisibleInViewport(findTestObject("Smoke Test/Trainings/Curriculum Trainings Overview/Viewports/Curriculum - Tab"), 1, CONTINUE_ON_FAILURE)
+
+9
+00:00:16,280 --> 00:00:16,280
+17. verifyElementVisibleInViewport(findTestObject("Smoke Test/Trainings/Curriculum Trainings Overview/Viewports/Curriculum - Entity Dropdown"), 1, CONTINUE_ON_FAILURE)
+
+10
+00:00:17,012 --> 00:00:17,012
+21. verifyElementVisibleInViewport(findTestObject("Smoke Test/Trainings/Curriculum Trainings Overview/Viewports/Curriculum - Search field"), 1, CONTINUE_ON_FAILURE)
+
+11
+00:00:17,684 --> 00:00:17,684
+25. verifyElementVisibleInViewport(findTestObject("Smoke Test/Trainings/Curriculum Trainings Overview/Viewports/Curriculum - Filter"), 1, CONTINUE_ON_FAILURE)
+
+12
+00:00:18,354 --> 00:00:18,354
+29. verifyElementVisibleInViewport(findTestObject("Smoke Test/Trainings/Curriculum Trainings Overview/Viewports/Curriculum - Show Columns"), 1, CONTINUE_ON_FAILURE)
+
+13
+00:00:19,051 --> 00:00:19,051
+33. verifyElementVisibleInViewport(findTestObject("Smoke Test/Trainings/Curriculum Trainings Overview/Viewports/Curriculum - ERNI Logo"), 1, CONTINUE_ON_FAILURE)
+
+14
+00:00:19,397 --> 00:00:19,397
+37. verifyElementVisibleInViewport(findTestObject("Smoke Test/Trainings/Curriculum Trainings Overview/Viewports/Curriculum - Edit column"), 1, CONTINUE_ON_FAILURE)
+
+15
+00:00:19,726 --> 00:00:19,726
+41. verifyElementVisibleInViewport(findTestObject("Smoke Test/Trainings/Curriculum Trainings Overview/Viewports/Curriculum - Employee Name column"), 1, CONTINUE_ON_FAILURE)
+
+16
+00:00:20,057 --> 00:00:20,057
+45. verifyElementVisibleInViewport(findTestObject("Smoke Test/Trainings/Curriculum Trainings Overview/Viewports/Curriculum - Entry Date column"), 1, CONTINUE_ON_FAILURE)
+
+17
+00:00:20,398 --> 00:00:20,398
+49. verifyElementVisibleInViewport(findTestObject("Smoke Test/Trainings/Curriculum Trainings Overview/Viewports/Curriculum - Unit column"), 1, CONTINUE_ON_FAILURE)
+
+18
+00:00:20,725 --> 00:00:20,725
+53. verifyElementVisibleInViewport(findTestObject("Smoke Test/Trainings/Curriculum Trainings Overview/Viewports/Curriculum - Level column"), 1, CONTINUE_ON_FAILURE)
+

@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ERNI Connect - Smoke Test" time="1268.193" tests="21" failures="4" errors="0">
+   <testsuite name="ERNI Connect - Smoke Test" tests="21" failures="4" errors="0" time="1268.193" timestamp="2020-04-29 15:01:39" hostname="can - A-5CG94703SD.erni2.ch" id="Test Suites/ERNI Connect - Smoke Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\can\\Katalon Studio\\ERNI Connect - Smoke Test\\Reports\\20200429_150134\\ERNI Connect - Smoke Test\\20200429_150134"/>
+         <property name="logFiles" value="C:\\Users\\can\\Katalon Studio\\ERNI Connect - Smoke Test\\Reports\\20200429_150134\\ERNI Connect - Smoke Test\\20200429_150134\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="can - A-5CG94703SD.erni2.ch"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.3.0.1"/>
+         <property name="browser" value="Chrome 81.0.4044.129"/>
+         <property name="hostAddress" value="10.180.98.124"/>
+         <property name="sessionId" value="d8b382463e2bda47c6a708c99bc4a5b1"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Smoke Test/Capacity Management - Available Employees - Verify Table" time="63.894" classname="Test Cases/Smoke Test/Capacity Management - Available Employees - Verify Table" status="PASSED">
+         <system-out><![CDATA[2020-04-29 15:01:40 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/Capacity Management - Available Employees - Verify Table: Test Cases/Smoke Test/Capacity Management - Available Employees - Verify Table]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/Capacity Management - Available Employees" time="96.874" classname="Test Cases/Smoke Test/Capacity Management - Available Employees" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Smoke Test/Capacity Management - Available Employees FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify if object 'Object Repository/Smoke Test/Capacity Management - Available Employees/Viewports/Viewport - Available Employees - Filter' is visible in viewport
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleInViewportKeyword.verifyElementVisibleInViewport(VerifyElementVisibleInViewportKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleInViewportKeyword.execute(VerifyElementVisibleInViewportKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisibleInViewport(WebUiBuiltInKeywords.groovy:3018)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisibleInViewport(WebUiBuiltInKeywords.groovy:3034)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisibleInViewport$4.call(Unknown Source)
+	at Capacity Management - Available Employees.run(Capacity Management - Available Employees:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1588143694282.run(TempTestSuite1588143694282.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Smoke Test/Capacity Management - Available Employees/Viewports/Viewport - Available Employees - Filter' is not present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleInViewportKeyword$_verifyElementVisibleInViewport_closure1.doCall(VerifyElementVisibleInViewportKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleInViewportKeyword$_verifyElementVisibleInViewport_closure1.call(VerifyElementVisibleInViewportKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+"/>
+         <system-out><![CDATA[2020-04-29 15:02:43 - [TEST_CASE][FAILED] - Test Cases/Smoke Test/Capacity Management - Available Employees: Test Cases/Smoke Test/Capacity Management - Available Employees FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify if object 'Object Repository/Smoke Test/Capacity Management - Available Employees/Viewports/Viewport - Available Employees - Filter' is visible in viewport
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleInViewportKeyword.verifyElementVisibleInViewport(VerifyElementVisibleInViewportKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleInViewportKeyword.execute(VerifyElementVisibleInViewportKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisibleInViewport(WebUiBuiltInKeywords.groovy:3018)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisibleInViewport(WebUiBuiltInKeywords.groovy:3034)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisibleInViewport$4.call(Unknown Source)
+	at Capacity Management - Available Employees.run(Capacity Management - Available Employees:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1588143694282.run(TempTestSuite1588143694282.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Smoke Test/Capacity Management - Available Employees/Viewports/Viewport - Available Employees - Filter' is not present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleInViewportKeyword$_verifyElementVisibleInViewport_closure1.doCall(VerifyElementVisibleInViewportKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleInViewportKeyword$_verifyElementVisibleInViewport_closure1.call(VerifyElementVisibleInViewportKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+         <system-err><![CDATA[2020-04-29 15:02:43 - [TEST_CASE][FAILED] - Test Cases/Smoke Test/Capacity Management - Available Employees: Test Cases/Smoke Test/Capacity Management - Available Employees FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify if object 'Object Repository/Smoke Test/Capacity Management - Available Employees/Viewports/Viewport - Available Employees - Filter' is visible in viewport
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleInViewportKeyword.verifyElementVisibleInViewport(VerifyElementVisibleInViewportKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleInViewportKeyword.execute(VerifyElementVisibleInViewportKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisibleInViewport(WebUiBuiltInKeywords.groovy:3018)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisibleInViewport(WebUiBuiltInKeywords.groovy:3034)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisibleInViewport$4.call(Unknown Source)
+	at Capacity Management - Available Employees.run(Capacity Management - Available Employees:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1588143694282.run(TempTestSuite1588143694282.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Smoke Test/Capacity Management - Available Employees/Viewports/Viewport - Available Employees - Filter' is not present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleInViewportKeyword$_verifyElementVisibleInViewport_closure1.doCall(VerifyElementVisibleInViewportKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleInViewportKeyword$_verifyElementVisibleInViewport_closure1.call(VerifyElementVisibleInViewportKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/Capacity Management - Project Allocation - Table" time="56.936" classname="Test Cases/Smoke Test/Capacity Management - Project Allocation - Table" status="PASSED">
+         <system-out><![CDATA[2020-04-29 15:04:20 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/Capacity Management - Project Allocation - Table: Test Cases/Smoke Test/Capacity Management - Project Allocation - Table]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/Capacity Management - Project Allocation" time="54.031" classname="Test Cases/Smoke Test/Capacity Management - Project Allocation" status="PASSED">
+         <system-out><![CDATA[2020-04-29 15:05:17 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/Capacity Management - Project Allocation: Test Cases/Smoke Test/Capacity Management - Project Allocation]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/Customers - Customer Search - Verify Page" time="54.646" classname="Test Cases/Smoke Test/Customers - Customer Search - Verify Page" status="PASSED">
+         <system-out><![CDATA[2020-04-29 15:06:11 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/Customers - Customer Search - Verify Page: Test Cases/Smoke Test/Customers - Customer Search - Verify Page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/Customers - Customer Search - Verify Table" time="51.067" classname="Test Cases/Smoke Test/Customers - Customer Search - Verify Table" status="PASSED">
+         <system-out><![CDATA[2020-04-29 15:07:06 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/Customers - Customer Search - Verify Table: Test Cases/Smoke Test/Customers - Customer Search - Verify Table]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/People - My Record -View" time="117.073" classname="Test Cases/Smoke Test/People - My Record -View" status="PASSED">
+         <system-out><![CDATA[2020-04-29 15:07:57 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/People - My Record -View: Test Cases/Smoke Test/People - My Record -View]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/People - People Search - Verify Page" time="49.951" classname="Test Cases/Smoke Test/People - People Search - Verify Page" status="PASSED">
+         <system-out><![CDATA[2020-04-29 15:09:54 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/People - People Search - Verify Page: Test Cases/Smoke Test/People - People Search - Verify Page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/People - People Search - Verify Table" time="51.887" classname="Test Cases/Smoke Test/People - People Search - Verify Table" status="PASSED">
+         <system-out><![CDATA[2020-04-29 15:10:44 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/People - People Search - Verify Table: Test Cases/Smoke Test/People - People Search - Verify Table]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/Report - All Employees Forecast" time="44.761" classname="Test Cases/Smoke Test/Report - All Employees Forecast" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Smoke Test/Report - All Employees Forecast FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify if object 'Object Repository/Smoke Test/Reports/Viewports/All Employees Forecast - Filter Availability' is visible in viewport
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleInViewportKeyword.verifyElementVisibleInViewport(VerifyElementVisibleInViewportKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleInViewportKeyword.execute(VerifyElementVisibleInViewportKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisibleInViewport(WebUiBuiltInKeywords.groovy:3018)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisibleInViewport(WebUiBuiltInKeywords.groovy:3034)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisibleInViewport$4.call(Unknown Source)
+	at Report - All Employees Forecast.run(Report - All Employees Forecast:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1588143694282.run(TempTestSuite1588143694282.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Smoke Test/Reports/Viewports/All Employees Forecast - Filter Availability' is not present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleInViewportKeyword$_verifyElementVisibleInViewport_closure1.doCall(VerifyElementVisibleInViewportKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleInViewportKeyword$_verifyElementVisibleInViewport_closure1.call(VerifyElementVisibleInViewportKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+"/>
+         <system-out><![CDATA[2020-04-29 15:11:36 - [TEST_CASE][FAILED] - Test Cases/Smoke Test/Report - All Employees Forecast: Test Cases/Smoke Test/Report - All Employees Forecast FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify if object 'Object Repository/Smoke Test/Reports/Viewports/All Employees Forecast - Filter Availability' is visible in viewport
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleInViewportKeyword.verifyElementVisibleInViewport(VerifyElementVisibleInViewportKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleInViewportKeyword.execute(VerifyElementVisibleInViewportKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisibleInViewport(WebUiBuiltInKeywords.groovy:3018)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisibleInViewport(WebUiBuiltInKeywords.groovy:3034)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisibleInViewport$4.call(Unknown Source)
+	at Report - All Employees Forecast.run(Report - All Employees Forecast:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1588143694282.run(TempTestSuite1588143694282.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Smoke Test/Reports/Viewports/All Employees Forecast - Filter Availability' is not present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleInViewportKeyword$_verifyElementVisibleInViewport_closure1.doCall(VerifyElementVisibleInViewportKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleInViewportKeyword$_verifyElementVisibleInViewport_closure1.call(VerifyElementVisibleInViewportKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+         <system-err><![CDATA[2020-04-29 15:11:36 - [TEST_CASE][FAILED] - Test Cases/Smoke Test/Report - All Employees Forecast: Test Cases/Smoke Test/Report - All Employees Forecast FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify if object 'Object Repository/Smoke Test/Reports/Viewports/All Employees Forecast - Filter Availability' is visible in viewport
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleInViewportKeyword.verifyElementVisibleInViewport(VerifyElementVisibleInViewportKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleInViewportKeyword.execute(VerifyElementVisibleInViewportKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisibleInViewport(WebUiBuiltInKeywords.groovy:3018)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisibleInViewport(WebUiBuiltInKeywords.groovy:3034)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisibleInViewport$4.call(Unknown Source)
+	at Report - All Employees Forecast.run(Report - All Employees Forecast:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1588143694282.run(TempTestSuite1588143694282.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Smoke Test/Reports/Viewports/All Employees Forecast - Filter Availability' is not present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleInViewportKeyword$_verifyElementVisibleInViewport_closure1.doCall(VerifyElementVisibleInViewportKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleInViewportKeyword$_verifyElementVisibleInViewport_closure1.call(VerifyElementVisibleInViewportKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/Report - Available Capacity Forecast - Graph" time="47.28" classname="Test Cases/Smoke Test/Report - Available Capacity Forecast - Graph" status="PASSED">
+         <system-out><![CDATA[2020-04-29 15:12:21 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/Report - Available Capacity Forecast - Graph: Test Cases/Smoke Test/Report - Available Capacity Forecast - Graph]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/Report - Available Capacity" time="45.384" classname="Test Cases/Smoke Test/Report - Available Capacity" status="PASSED">
+         <system-out><![CDATA[2020-04-29 15:13:08 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/Report - Available Capacity: Test Cases/Smoke Test/Report - Available Capacity]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/Report - Available Employees" time="42.608" classname="Test Cases/Smoke Test/Report - Available Employees" status="PASSED">
+         <system-out><![CDATA[2020-04-29 15:13:53 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/Report - Available Employees: Test Cases/Smoke Test/Report - Available Employees]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/Report - Top Experiences" time="46.441" classname="Test Cases/Smoke Test/Report - Top Experiences" status="PASSED">
+         <system-out><![CDATA[2020-04-29 15:14:36 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/Report - Top Experiences: Test Cases/Smoke Test/Report - Top Experiences]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/Trainings - Curriculum Trainings Overview" time="47.209" classname="Test Cases/Smoke Test/Trainings - Curriculum Trainings Overview" status="PASSED">
+         <system-out><![CDATA[2020-04-29 15:15:23 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/Trainings - Curriculum Trainings Overview: Test Cases/Smoke Test/Trainings - Curriculum Trainings Overview]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/Trainings - Library" time="71.816" classname="Test Cases/Smoke Test/Trainings - Library" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Smoke Test/Trainings - Library FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Smoke Test/Trainings/Library/Link/Trainings - Library'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Trainings - Library.run(Trainings - Library:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1588143694282.run(TempTestSuite1588143694282.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Smoke Test/Trainings/Library/Link/Trainings - Library' located by 'By.xpath: //div[@id='Home']/div/section/div/div[5]/div/ul/li/span/a/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-04-29 15:16:10 - [TEST_CASE][FAILED] - Test Cases/Smoke Test/Trainings - Library: Test Cases/Smoke Test/Trainings - Library FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Smoke Test/Trainings/Library/Link/Trainings - Library'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Trainings - Library.run(Trainings - Library:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1588143694282.run(TempTestSuite1588143694282.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Smoke Test/Trainings/Library/Link/Trainings - Library' located by 'By.xpath: //div[@id='Home']/div/section/div/div[5]/div/ul/li/span/a/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+         <system-err><![CDATA[2020-04-29 15:16:10 - [TEST_CASE][FAILED] - Test Cases/Smoke Test/Trainings - Library: Test Cases/Smoke Test/Trainings - Library FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Smoke Test/Trainings/Library/Link/Trainings - Library'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Trainings - Library.run(Trainings - Library:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1588143694282.run(TempTestSuite1588143694282.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Smoke Test/Trainings/Library/Link/Trainings - Library' located by 'By.xpath: //div[@id='Home']/div/section/div/div[5]/div/ul/li/span/a/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/Trainings - Training Employee Overview" time="46.492" classname="Test Cases/Smoke Test/Trainings - Training Employee Overview" status="PASSED">
+         <system-out><![CDATA[2020-04-29 15:17:22 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/Trainings - Training Employee Overview: Test Cases/Smoke Test/Trainings - Training Employee Overview]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Verify Import/Go to People Search - All" time="99.503" classname="Test Cases/Verify Import/Go to People Search - All" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Verify Import/Go to People Search - All FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify if object 'Object Repository/Smoke Test/People - People Search/Viewport - Objects/Loading Animation' is not visible in viewport
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleInViewportKeyword.verifyElementNotVisibleInViewport(VerifyElementNotVisibleInViewportKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleInViewportKeyword.execute(VerifyElementNotVisibleInViewportKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotInViewport(WebUiBuiltInKeywords.groovy:3129)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotInViewport$9.call(Unknown Source)
+	at Go to People Search - All.run(Go to People Search - All:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1588143694282.run(TempTestSuite1588143694282.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Smoke Test/People - People Search/Viewport - Objects/Loading Animation' is present but is visible in viewport
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleInViewportKeyword$_verifyElementNotVisibleInViewport_closure1.doCall(VerifyElementNotVisibleInViewportKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleInViewportKeyword$_verifyElementNotVisibleInViewport_closure1.call(VerifyElementNotVisibleInViewportKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-04-29 15:18:08 - [TEST_CASE][FAILED] - Test Cases/Verify Import/Go to People Search - All: Test Cases/Verify Import/Go to People Search - All FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify if object 'Object Repository/Smoke Test/People - People Search/Viewport - Objects/Loading Animation' is not visible in viewport
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleInViewportKeyword.verifyElementNotVisibleInViewport(VerifyElementNotVisibleInViewportKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleInViewportKeyword.execute(VerifyElementNotVisibleInViewportKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotInViewport(WebUiBuiltInKeywords.groovy:3129)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotInViewport$9.call(Unknown Source)
+	at Go to People Search - All.run(Go to People Search - All:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1588143694282.run(TempTestSuite1588143694282.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Smoke Test/People - People Search/Viewport - Objects/Loading Animation' is present but is visible in viewport
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleInViewportKeyword$_verifyElementNotVisibleInViewport_closure1.doCall(VerifyElementNotVisibleInViewportKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleInViewportKeyword$_verifyElementNotVisibleInViewport_closure1.call(VerifyElementNotVisibleInViewportKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+         <system-err><![CDATA[2020-04-29 15:18:08 - [TEST_CASE][FAILED] - Test Cases/Verify Import/Go to People Search - All: Test Cases/Verify Import/Go to People Search - All FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify if object 'Object Repository/Smoke Test/People - People Search/Viewport - Objects/Loading Animation' is not visible in viewport
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleInViewportKeyword.verifyElementNotVisibleInViewport(VerifyElementNotVisibleInViewportKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleInViewportKeyword.execute(VerifyElementNotVisibleInViewportKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotInViewport(WebUiBuiltInKeywords.groovy:3129)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotInViewport$9.call(Unknown Source)
+	at Go to People Search - All.run(Go to People Search - All:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1588143694282.run(TempTestSuite1588143694282.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Smoke Test/People - People Search/Viewport - Objects/Loading Animation' is present but is visible in viewport
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleInViewportKeyword$_verifyElementNotVisibleInViewport_closure1.doCall(VerifyElementNotVisibleInViewportKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleInViewportKeyword$_verifyElementNotVisibleInViewport_closure1.call(VerifyElementNotVisibleInViewportKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/Employee Level Checker/People Search - EPH" time="43.333" classname="Test Cases/Smoke Test/Employee Level Checker/People Search - EPH" status="PASSED">
+         <system-out><![CDATA[2020-04-29 15:19:48 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/Employee Level Checker/People Search - EPH: Test Cases/Smoke Test/Employee Level Checker/People Search - EPH]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/Employee Level Checker/People Search - Check Employee Level" time="89.436" classname="Test Cases/Smoke Test/Employee Level Checker/People Search - Check Employee Level" status="PASSED">
+         <system-out><![CDATA[2020-04-29 15:20:31 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/Employee Level Checker/People Search - Check Employee Level: Test Cases/Smoke Test/Employee Level Checker/People Search - Check Employee Level]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Verify Report/Verify - Available Capacity Cumulated" time="43.915" classname="Test Cases/Verify Report/Verify - Available Capacity Cumulated" status="PASSED">
+         <system-out><![CDATA[2020-04-29 15:22:00 - [TEST_CASE][PASSED] - Test Cases/Verify Report/Verify - Available Capacity Cumulated: Test Cases/Verify Report/Verify - Available Capacity Cumulated]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-04-29 15:01:39 - [TEST_SUITE][FAILED] - ERNI Connect - Smoke Test: Test Cases/Smoke Test/Capacity Management - Available Employees FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify if object 'Object Repository/Smoke Test/Capacity Management - Available Employees/Viewports/Viewport - Available Employees - Filter' is visible in viewport
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleInViewportKeyword.verifyElementVisibleInViewport(VerifyElementVisibleInViewportKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleInViewportKeyword.execute(VerifyElementVisibleInViewportKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisibleInViewport(WebUiBuiltInKeywords.groovy:3018)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisibleInViewport(WebUiBuiltInKeywords.groovy:3034)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisibleInViewport$4.call(Unknown Source)
+	at Capacity Management - Available Employees.run(Capacity Management - Available Employees:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1588143694282.run(TempTestSuite1588143694282.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Smoke Test/Capacity Management - Available Employees/Viewports/Viewport - Available Employees - Filter' is not present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleInViewportKeyword$_verifyElementVisibleInViewport_closure1.doCall(VerifyElementVisibleInViewportKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleInViewportKeyword$_verifyElementVisibleInViewport_closure1.call(VerifyElementVisibleInViewportKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[2020-04-29 15:01:39 - [TEST_SUITE][FAILED] - ERNI Connect - Smoke Test: Test Cases/Smoke Test/Capacity Management - Available Employees FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify if object 'Object Repository/Smoke Test/Capacity Management - Available Employees/Viewports/Viewport - Available Employees - Filter' is visible in viewport
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleInViewportKeyword.verifyElementVisibleInViewport(VerifyElementVisibleInViewportKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleInViewportKeyword.execute(VerifyElementVisibleInViewportKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisibleInViewport(WebUiBuiltInKeywords.groovy:3018)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisibleInViewport(WebUiBuiltInKeywords.groovy:3034)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisibleInViewport$4.call(Unknown Source)
+	at Capacity Management - Available Employees.run(Capacity Management - Available Employees:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1588143694282.run(TempTestSuite1588143694282.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Smoke Test/Capacity Management - Available Employees/Viewports/Viewport - Available Employees - Filter' is not present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleInViewportKeyword$_verifyElementVisibleInViewport_closure1.doCall(VerifyElementVisibleInViewportKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleInViewportKeyword$_verifyElementVisibleInViewport_closure1.call(VerifyElementVisibleInViewportKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

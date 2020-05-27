@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>1. Click &quot;People Search&quot;
+2. Verify if loading is done after 10 seconds</description>
+   <name>People Search - EPH</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>312de80b-097b-40e0-84c5-0051b1214579</testCaseGuid>
+   <variable>
+      <defaultValue>'https://connect-test.erninet.ch/3#peopleSearch'</defaultValue>
+      <description></description>
+      <id>8cb3045b-3e38-4f71-8504-6dc4dbf347a5</id>
+      <masked>false</masked>
+      <name>TEST</name>
+   </variable>
+   <variable>
+      <defaultValue>'https://connect.erninet.ch/#peopleSearch'</defaultValue>
+      <description></description>
+      <id>78ed06f4-abc6-4a01-9503-70ccef37a304</id>
+      <masked>false</masked>
+      <name>PROD</name>
+   </variable>
+</TestCaseEntity>

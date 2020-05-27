@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>1. Click &quot;Available capacity Forecast Cumulated&quot;
+2. Verify if Graph Table is Visibile in Viewport after 10 seconds</description>
+   <name>Report - Available Capacity Forecast - Graph</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>71ba2904-33f4-4036-af01-d661499c8006</testCaseGuid>
+</TestCaseEntity>

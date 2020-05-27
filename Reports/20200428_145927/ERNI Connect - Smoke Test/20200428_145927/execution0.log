@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-04-28T14:59:31</date>
+  <millis>1588057171673</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/ERNI Connect - Smoke Test</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">ERNI Connect - Smoke Test</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/ERNI Connect - Smoke Test</property>
+</record>
+<record>
+  <date>2020-04-28T14:59:31</date>
+  <millis>1588057171703</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = can - A-5CG94703SD.erni2.ch</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">can - A-5CG94703SD.erni2.ch</property>
+</record>
+<record>
+  <date>2020-04-28T14:59:31</date>
+  <millis>1588057171704</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2020-04-28T14:59:31</date>
+  <millis>1588057171705</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 10.180.98.124</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">10.180.98.124</property>
+</record>
+<record>
+  <date>2020-04-28T14:59:31</date>
+  <millis>1588057171707</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 7.3.0.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">7.3.0.1</property>
+</record>
+<record>
+  <date>2020-04-28T14:59:32</date>
+  <millis>1588057172059</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Smoke Test/Capacity Management - Available Employees - Verify Table</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Smoke Test/Capacity Management - Available Employees - Verify Table</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Smoke Test/Capacity Management - Available Employees - Verify Table</property>
+  <property name="source">C:\\Users\\can\\Katalon Studio\\ERNI Connect - Smoke Test\\Test Cases\\Smoke Test\\Capacity Management - Available Employees - Verify Table.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-04-28T14:59:32</date>
+  <millis>1588057172801</millis>
+  <sequence>9</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Modular Component/FIRST TC Open Connect (Delay 10s)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="name">Test Cases/Modular Component/FIRST TC Open Connect (Delay 10s)</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Modular Component/FIRST TC Open Connect (Delay 10s)</property>
+  <property name="source">C:\\Users\\can\\Katalon Studio\\ERNI Connect - Smoke Test\\Test Cases\\Modular Component\\FIRST TC Open Connect (Delay 10s).tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-04-28T14:59:32</date>
+  <millis>1588057172818</millis>
+  <sequence>11</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>URL = https://connect-test.erninet.ch/3#Home</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-04-28T14:59:33</date>
+  <millis>1588057173287</millis>
+  <sequence>14</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Bypass Windows Auth</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="name">Test Cases/Bypass Windows Auth</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Bypass Windows Auth</property>
+  <property name="source">C:\\Users\\can\\Katalon Studio\\ERNI Connect - Smoke Test\\Test Cases\\Bypass Windows Auth.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-04-28T14:59:34</date>
+  <millis>1588057174015</millis>
+  <sequence>17</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2020-04-28T14:59:34</date>
+  <millis>1588057174092</millis>
+  <sequence>19</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 milliseconds</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2020-04-28T14:59:41</date>
+  <millis>1588057181139</millis>
+  <sequence>21</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = c045efee00c0a7fee02a2d3080e0c635</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="sessionId">c045efee00c0a7fee02a2d3080e0c635</property>
+</record>
+<record>
+  <date>2020-04-28T14:59:41</date>
+  <millis>1588057181179</millis>
+  <sequence>22</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 81.0.4044.122</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="browser">Chrome 81.0.4044.122</property>
+</record>
+<record>
+  <date>2020-04-28T14:59:41</date>
+  <millis>1588057181182</millis>
+  <sequence>23</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 10</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2020-04-28T14:59:41</date>
+  <millis>1588057181184</millis>
+  <sequence>24</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.141.59</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="seleniumVersion">3.141.59</property>
+</record>
+<record>
+  <date>2020-04-28T14:59:41</date>
+  <millis>1588057181184</millis>
+  <sequence>25</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}</message>
+  <nestedLevel>3</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}</property>
+</record>
+<record>
+  <date>2020-04-28T14:59:41</date>
+  <millis>1588057181202</millis>
+  <sequence>26</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;&amp;apos;</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2020-04-28T14:59:43</date>
+  <millis>1588057183415</millis>
+  <sequence>28</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Current window maximized</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2020-04-28T14:59:45</date>
+  <millis>1588057185440</millis>
+  <sequence>30</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 2 second(s)</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2020-04-28T14:59:48</date>
+  <millis>1588057188267</millis>
+  <sequence>33</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Authentication with username &amp;apos;N13lappcenter2&amp;apos; and password &amp;apos;{2}&amp;apos; successfully</message>
+  <nestedLevel>3</nestedLevel>
+</record>
+<record>
+  <date>2020-04-28T14:59:50</date>
+  <millis>1588057190273</millis>
+  <sequence>35</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 2 second(s)</message>
+  <nestedLevel>3</nestedLevel>
+</record>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>1. Click &quot;People Search&quot;
+2. Search for &quot;employee&quot; variable 
+3. Verify &quot;level&quot; variable is displayed
+4. Verify &quot;other&quot; string is not displayed</description>
+   <name>People Search - Check Employee Level</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3f570530-01ba-4daa-a56a-3dddc0565f87</testCaseGuid>
+   <variable>
+      <defaultValue>'nathaniel cadapan'</defaultValue>
+      <description></description>
+      <id>9bb8aab8-44b2-4aed-b0d1-18beb2de3cba</id>
+      <masked>false</masked>
+      <name>employee</name>
+   </variable>
+   <variable>
+      <defaultValue>'Senior'</defaultValue>
+      <description></description>
+      <id>54bc21da-eca7-4918-9e45-a07e767c6862</id>
+      <masked>false</masked>
+      <name>level</name>
+   </variable>
+</TestCaseEntity>

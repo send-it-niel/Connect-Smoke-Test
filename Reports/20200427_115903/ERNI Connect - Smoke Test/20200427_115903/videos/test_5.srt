@@ -1,0 +1,44 @@
+1
+00:00:00,201 --> 00:00:00,201
+1. callTestCase(findTestCase("Modular Component/FIRST TC Open Connect (Delay 10s)"), ["URL":"https://connect-test.erninet.ch/3#Home"], STOP_ON_FAILURE)
+
+2
+00:00:00,272 --> 00:00:00,272
+1. openBrowser("")
+
+3
+00:00:00,411 --> 00:00:00,411
+5. maximizeWindow()
+
+4
+00:00:00,428 --> 00:00:00,428
+9. navigateToUrl(TEST)
+
+5
+00:00:00,503 --> 00:00:00,503
+13. delay(5)
+
+6
+00:00:05,516 --> 00:00:05,516
+5. callTestCase(findTestCase("Modular Component/Click - Customer Search"), [:], STOP_ON_FAILURE)
+
+7
+00:00:05,774 --> 00:00:05,774
+1. delay(10)
+
+8
+00:00:15,779 --> 00:00:15,779
+5. click(findTestObject("Smoke Test/Customers/Link/Link - Dashboard - Customer Search"), CONTINUE_ON_FAILURE)
+
+9
+00:00:16,112 --> 00:00:16,112
+9. delay(10, CONTINUE_ON_FAILURE)
+
+10
+00:00:26,122 --> 00:00:26,122
+9. verifyElementVisibleInViewport(findTestObject("Smoke Test/Customers/Viewports/Viewport - Customer Search - TAB"), 1)
+
+11
+00:00:26,457 --> 00:00:26,457
+13. verifyElementVisibleInViewport(findTestObject("Smoke Test/Customers/Viewports/Viewport - Customer Search - Entity Dropdown"), 1)
+

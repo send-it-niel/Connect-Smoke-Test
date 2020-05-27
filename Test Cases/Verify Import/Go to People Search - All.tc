@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>1. Click &quot;People Search&quot;
+2. Set entity = All
+3. Verify loading is finished after 1- seconds</description>
+   <name>Go to People Search - All</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b970a291-7904-4b9a-ac43-b77331c33397</testCaseGuid>
+</TestCaseEntity>

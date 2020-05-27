@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>1. Click &quot;Top Experience&quot;|
+2. Verify if Table Headers are visible in Viewport after 10 seconds</description>
+   <name>Report - Top Experiences</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3ccb6d22-319d-4ffa-b1ca-4038d95110e6</testCaseGuid>
+</TestCaseEntity>

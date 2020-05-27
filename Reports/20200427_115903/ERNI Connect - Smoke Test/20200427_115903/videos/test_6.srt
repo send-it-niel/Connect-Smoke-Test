@@ -1,0 +1,56 @@
+1
+00:00:00,202 --> 00:00:00,202
+1. callTestCase(findTestCase("Modular Component/FIRST TC Open Connect (Delay 10s)"), ["URL":"https://connect-test.erninet.ch/3#Home"], STOP_ON_FAILURE)
+
+2
+00:00:00,274 --> 00:00:00,274
+1. openBrowser("")
+
+3
+00:00:00,403 --> 00:00:00,403
+5. maximizeWindow()
+
+4
+00:00:00,419 --> 00:00:00,419
+9. navigateToUrl(TEST)
+
+5
+00:00:00,497 --> 00:00:00,497
+13. delay(5)
+
+6
+00:00:05,507 --> 00:00:05,507
+5. callTestCase(findTestCase("Modular Component/Click - Customer Search"), [:], STOP_ON_FAILURE)
+
+7
+00:00:05,575 --> 00:00:05,575
+1. delay(10)
+
+8
+00:00:15,580 --> 00:00:15,580
+5. click(findTestObject("Smoke Test/Customers/Link/Link - Dashboard - Customer Search"), CONTINUE_ON_FAILURE)
+
+9
+00:00:15,900 --> 00:00:15,900
+9. delay(10, CONTINUE_ON_FAILURE)
+
+10
+00:00:25,912 --> 00:00:25,912
+9. verifyElementVisibleInViewport(findTestObject("Smoke Test/Customers/Viewports/Viewport - Customer Search - Project ID"), 1)
+
+11
+00:00:26,235 --> 00:00:26,235
+13. verifyElementVisibleInViewport(findTestObject("Smoke Test/Customers/Viewports/Viewport - Customer Search - Name"), 1)
+
+12
+00:00:26,553 --> 00:00:26,553
+17. verifyElementVisibleInViewport(findTestObject("Smoke Test/Customers/Viewports/Viewport - Customer Search - Start"), 1)
+
+13
+00:00:26,874 --> 00:00:26,874
+21. verifyElementVisibleInViewport(findTestObject("Smoke Test/Customers/Viewports/Viewport - Customer Search - End"), 1)
+
+14
+00:00:27,199 --> 00:00:27,200
+25. verifyElementVisibleInViewport(findTestObject("Smoke Test/Customers/Viewports/Viewport - Customer Search - Project Manager"), 1)
+

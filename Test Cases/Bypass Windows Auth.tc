@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Bypass Windows Auth</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bc8d7efa-6b72-498c-accb-9e9d26bb1f27</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>eb0d6fc9-1571-4574-aca0-5e5e90f30e3b</id>
+      <masked>false</masked>
+      <name>a</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>74a168b4-49e3-43dd-802f-b6aea5a7c146</id>
+      <masked>false</masked>
+      <name>b</name>
+   </variable>
+</TestCaseEntity>

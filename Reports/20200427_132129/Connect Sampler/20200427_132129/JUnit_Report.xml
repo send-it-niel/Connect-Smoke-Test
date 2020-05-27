@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Connect Sampler" time="35.495" tests="1" failures="0" errors="0">
+   <testsuite name="Connect Sampler" tests="1" failures="0" errors="0" time="35.495" timestamp="2020-04-27 13:21:32" hostname="can - A-5CG94703SD.erni2.ch" id="Test Suites/Connect Sampler">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\can\\Katalon Studio\\ERNI Connect - Smoke Test\\Reports\\20200427_132129\\Connect Sampler\\20200427_132129"/>
+         <property name="logFiles" value="C:\\Users\\can\\Katalon Studio\\ERNI Connect - Smoke Test\\Reports\\20200427_132129\\Connect Sampler\\20200427_132129\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="can - A-5CG94703SD.erni2.ch"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.3.0.1"/>
+         <property name="browser" value="Chrome 81.0.4044.122"/>
+         <property name="hostAddress" value="10.180.98.124"/>
+         <property name="sessionId" value="b691ec15068b45408cf1a52440655afb"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Smoke Test/Capacity Management - Available Employees - Verify Table" time="34.765" classname="Test Cases/Smoke Test/Capacity Management - Available Employees - Verify Table" status="PASSED">
+         <system-out><![CDATA[2020-04-27 13:21:32 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/Capacity Management - Available Employees - Verify Table: Test Cases/Smoke Test/Capacity Management - Available Employees - Verify Table]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-04-27 13:21:32 - [TEST_SUITE][PASSED] - Connect Sampler: Test Cases/Smoke Test/Capacity Management - Available Employees - Verify Table]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

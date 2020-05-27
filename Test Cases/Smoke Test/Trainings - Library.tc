@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>1. Click &quot;Library&quot;
+2. Verify each Items after 10 seconds</description>
+   <name>Trainings - Library</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>570fee6e-28d2-4643-bc6d-e5f569e91cbc</testCaseGuid>
+</TestCaseEntity>

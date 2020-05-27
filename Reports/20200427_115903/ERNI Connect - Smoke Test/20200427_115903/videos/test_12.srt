@@ -1,0 +1,32 @@
+1
+00:00:00,205 --> 00:00:00,205
+1. callTestCase(findTestCase("Modular Component/FIRST TC Open Connect (Delay 10s)"), ["URL":"https://connect-test.erninet.ch/3#Home"], STOP_ON_FAILURE)
+
+2
+00:00:00,268 --> 00:00:00,268
+1. openBrowser("")
+
+3
+00:00:00,415 --> 00:00:00,415
+5. maximizeWindow()
+
+4
+00:00:00,440 --> 00:00:00,440
+9. navigateToUrl(TEST)
+
+5
+00:00:00,508 --> 00:00:00,508
+13. delay(5)
+
+6
+00:00:05,514 --> 00:00:05,514
+5. click(findTestObject("Smoke Test/Reports/Link/Reports - Available Capacity Forecast"))
+
+7
+00:00:05,866 --> 00:00:05,867
+9. delay(10)
+
+8
+00:00:15,874 --> 00:00:15,874
+13. verifyElementVisibleInViewport(findTestObject("Smoke Test/Reports/Viewports/Available Capacity Forecast - Graph"), 1)
+

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>People Search - Check Level</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>22f1374b-33cf-4b24-9f6d-cb812d626fe7</testCaseGuid>
+   <variable>
+      <defaultValue>'nathaniel cadapan'</defaultValue>
+      <description></description>
+      <id>29e1403a-d3c8-4454-a3da-2b10199c7e2f</id>
+      <masked>false</masked>
+      <name>employee</name>
+   </variable>
+   <variable>
+      <defaultValue>'Professional'</defaultValue>
+      <description></description>
+      <id>f28d1fe2-ea3c-4345-a8d2-69fc0599d458</id>
+      <masked>false</masked>
+      <name>level</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,56 @@
+1
+00:00:00,272 --> 00:00:00,272
+1. callTestCase(findTestCase("Modular Component/FIRST TC Open Connect (Delay 10s)"), ["URL":"https://connect-test.erninet.ch/3#Home"], STOP_ON_FAILURE)
+
+2
+00:00:00,363 --> 00:00:00,364
+1. openBrowser("")
+
+3
+00:00:00,569 --> 00:00:00,569
+5. maximizeWindow()
+
+4
+00:00:00,608 --> 00:00:00,608
+9. navigateToUrl(TEST)
+
+5
+00:00:00,714 --> 00:00:00,714
+13. delay(5)
+
+6
+00:00:05,724 --> 00:00:05,725
+5. callTestCase(findTestCase("Modular Component/Click - Available Employees"), [:], STOP_ON_FAILURE)
+
+7
+00:00:05,788 --> 00:00:05,788
+1. delay(10)
+
+8
+00:00:15,800 --> 00:00:15,800
+5. click(findTestObject("Smoke Test/Capacity Management - Available Employees/Link/Link - Dashboard - Available Employees"), CONTINUE_ON_FAILURE)
+
+9
+00:00:16,168 --> 00:00:16,168
+9. delay(10, CONTINUE_ON_FAILURE)
+
+10
+00:00:26,177 --> 00:00:26,177
+9. verifyElementVisibleInViewport(findTestObject("Smoke Test/Capacity Management - Available Employees/Viewports/Viewport - Available Employees - TAB"), 0)
+
+11
+00:00:26,541 --> 00:00:26,541
+13. verifyElementVisibleInViewport(findTestObject("Smoke Test/Capacity Management - Available Employees/Viewports/Viewport - Available Employees - Entity Dropdown"), 0)
+
+12
+00:00:26,923 --> 00:00:26,923
+17. verifyElementVisibleInViewport(findTestObject("Smoke Test/Capacity Management - Available Employees/Viewports/Viewport - Available Employees - Next 8 Weeks"), 0)
+
+13
+00:00:27,312 --> 00:00:27,312
+21. verifyElementVisibleInViewport(findTestObject("Smoke Test/Capacity Management - Available Employees/Viewports/Viewport - Available Employees - Search field"), 0)
+
+14
+00:00:27,674 --> 00:00:27,674
+25. verifyElementVisibleInViewport(findTestObject("Smoke Test/Capacity Management - Available Employees/Viewports/Viewport - Available Employees - Filter"), 0)
+

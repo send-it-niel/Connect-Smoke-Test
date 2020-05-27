@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Import - Import Search</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c66fa9ae-cfbb-42b9-8098-ccd97b1d477e</testCaseGuid>
+   <variable>
+      <defaultValue>'agit'</defaultValue>
+      <description></description>
+      <id>0f873f2f-fb02-460c-8f77-134ac2d57f3a</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+   <variable>
+      <defaultValue>'nathaniel cadapan'</defaultValue>
+      <description></description>
+      <id>f312b2fc-e188-4fb3-8737-fea28474ef2d</id>
+      <masked>false</masked>
+      <name>employee</name>
+   </variable>
+</TestCaseEntity>

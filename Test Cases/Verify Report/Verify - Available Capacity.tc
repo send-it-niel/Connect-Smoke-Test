@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify - Available Capacity</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a5e5b96b-54d7-4532-a2ae-e25b9159afa0</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Connect - Verify Report - Available Capacity').getValue(1, 3)</defaultValue>
+      <description></description>
+      <id>f2922ac9-c34c-4ad7-932f-b27f8ebc5940</id>
+      <masked>false</masked>
+      <name>var1</name>
+   </variable>
+</TestCaseEntity>

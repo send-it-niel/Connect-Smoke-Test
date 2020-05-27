@@ -1,0 +1,40 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ERNI Connect - Smoke Test,Chrome 81.0.4044.122,,,2020-04-27 14:40:52,2020-04-27 14:55:28,14m - 35.716s,FAILED
+,,,,,,,
+Test Cases/Smoke Test/Capacity Management - Available Employees - Verify Table,Chrome 81.0.4044.122,,,2020-04-27 14:40:53,2020-04-27 14:41:34,41.208s,PASSED
+,,,,,,,
+Test Cases/Smoke Test/Capacity Management - Available Employees,Chrome 81.0.4044.122,,,2020-04-27 14:41:34,2020-04-27 14:42:17,43.196s,PASSED
+,,,,,,,
+Test Cases/Smoke Test/Capacity Management - Project Allocation - Table,Chrome 81.0.4044.122,,,2020-04-27 14:42:17,2020-04-27 14:42:53,35.565s,PASSED
+,,,,,,,
+Test Cases/Smoke Test/Capacity Management - Project Allocation,Chrome 81.0.4044.122,,,2020-04-27 14:42:53,2020-04-27 14:44:18,1m - 25.641s,FAILED
+,,,,,,,
+Test Cases/Smoke Test/Customers - Customer Search - Verify Page,Chrome 81.0.4044.122,,,2020-04-27 14:44:18,2020-04-27 14:44:54,35.317s,PASSED
+,,,,,,,
+Test Cases/Smoke Test/Customers - Customer Search - Verify Table,Chrome 81.0.4044.122,,,2020-04-27 14:44:54,2020-04-27 14:45:32,38.176s,PASSED
+,,,,,,,
+Test Cases/Smoke Test/People - Import Employee,Chrome 81.0.4044.122,,,2020-04-27 14:45:32,2020-04-27 14:46:08,36.309s,FAILED
+,,,,,,,
+Test Cases/Smoke Test/People - My Record -View,Chrome 81.0.4044.122,51017,,2020-04-27 14:46:08,2020-04-27 14:47:50,1m - 41.984s,PASSED
+,,,,,,,
+Test Cases/Smoke Test/People - People Search - Verify Page,Chrome 81.0.4044.122,,,2020-04-27 14:47:50,2020-04-27 14:48:29,39.410s,PASSED
+,,,,,,,
+Test Cases/Smoke Test/People - People Search - Verify Table,Chrome 81.0.4044.122,,,2020-04-27 14:48:29,2020-04-27 14:49:38,1m - 8.667s,FAILED
+,,,,,,,
+Test Cases/Smoke Test/Report - All Employees Forecast,Chrome 81.0.4044.122,,,2020-04-27 14:49:38,2020-04-27 14:50:14,36.267s,FAILED
+,,,,,,,
+Test Cases/Smoke Test/Report - Available Capacity Forecast - Graph,Chrome 81.0.4044.122,,,2020-04-27 14:50:14,2020-04-27 14:50:48,33.724s,FAILED
+,,,,,,,
+Test Cases/Smoke Test/Report - Available Capacity,Chrome 81.0.4044.122,,,2020-04-27 14:50:48,2020-04-27 14:51:22,34.013s,PASSED
+,,,,,,,
+Test Cases/Smoke Test/Report - Available Employees,Chrome 81.0.4044.122,,,2020-04-27 14:51:22,2020-04-27 14:51:55,32.465s,PASSED
+,,,,,,,
+Test Cases/Smoke Test/Report - Top Experiences,Chrome 81.0.4044.122,,,2020-04-27 14:51:55,2020-04-27 14:52:33,38.119s,FAILED
+,,,,,,,
+Test Cases/Smoke Test/Trainings - Curriculum Trainings Overview,Chrome 81.0.4044.122,,,2020-04-27 14:52:33,2020-04-27 14:53:19,46.006s,PASSED
+,,,,,,,
+Test Cases/Smoke Test/Trainings - Library,Chrome 81.0.4044.122,,,2020-04-27 14:53:19,2020-04-27 14:53:59,40.187s,FAILED
+,,,,,,,
+Test Cases/Smoke Test/Trainings - Training Employee Overview,Chrome 81.0.4044.122,,,2020-04-27 14:53:59,2020-04-27 14:54:38,38.979s,PASSED
+,,,,,,,
+Test Cases/Verify Import/Go to People Search - All,Chrome 81.0.4044.122,,,2020-04-27 14:54:38,2020-04-27 14:55:28,50.138s,FAILED

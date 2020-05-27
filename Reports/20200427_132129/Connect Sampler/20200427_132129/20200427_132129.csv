@@ -1,0 +1,4 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Connect Sampler,Chrome 81.0.4044.122,,,2020-04-27 13:21:32,2020-04-27 13:22:07,34.971s,PASSED
+,,,,,,,
+Test Cases/Smoke Test/Capacity Management - Available Employees - Verify Table,Chrome 81.0.4044.122,,,2020-04-27 13:21:32,2020-04-27 13:22:07,34.765s,PASSED

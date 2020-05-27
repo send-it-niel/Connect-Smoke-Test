@@ -1,0 +1,196 @@
+1
+00:00:00,204 --> 00:00:00,204
+1. callTestCase(findTestCase("Modular Component/FIRST TC Open Connect (Delay 10s)"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,288 --> 00:00:00,288
+1. openBrowser("")
+
+3
+00:00:00,432 --> 00:00:00,432
+5. maximizeWindow()
+
+4
+00:00:00,447 --> 00:00:00,447
+9. navigateToUrl(TEST)
+
+5
+00:00:00,474 --> 00:00:00,474
+13. delay(5)
+
+6
+00:00:05,482 --> 00:00:05,482
+5. callTestCase(findTestCase("Modular Component/Click - My record (Delay 10s)"), [:], STOP_ON_FAILURE)
+
+7
+00:00:05,742 --> 00:00:05,742
+1. delay(10)
+
+8
+00:00:15,746 --> 00:00:15,747
+5. click(findTestObject("Smoke Test/People - My record/Link - Objects/Link - Dashboard - My record"), CONTINUE_ON_FAILURE)
+
+9
+00:00:16,083 --> 00:00:16,083
+9. delay(10, CONTINUE_ON_FAILURE)
+
+10
+00:00:26,095 --> 00:00:26,095
+9. click(findTestObject("Smoke Test/People - My record/Link - Objects/Link - My record - ERNI Information"), CONTINUE_ON_FAILURE)
+
+11
+00:00:28,105 --> 00:00:28,105
+13. delay(2, CONTINUE_ON_FAILURE)
+
+12
+00:00:30,110 --> 00:00:30,110
+19. "My record" tab will not be available in viewport if "ERNI Information" is at the top-most of viewport.
+
+13
+00:01:00,258 --> 00:01:00,258
+23. verifyElementVisibleInViewport(findTestObject("Smoke Test/People - My record/Viewport - Objects/Viewport - My record - ERNI Information"), 0)
+
+14
+00:01:01,791 --> 00:01:01,791
+29. Click "Contact Information"
+
+15
+00:01:02,165 --> 00:01:02,165
+33. delay(2, CONTINUE_ON_FAILURE)
+
+16
+00:01:04,169 --> 00:01:04,169
+39. ERNI Information portion will not be available in viewport if Contact Information" is at the top-most of viewport.
+
+17
+00:01:04,509 --> 00:01:04,509
+43. verifyElementVisibleInViewport(findTestObject("Smoke Test/People - My record/Viewport - Objects/Viewport - My record - Contact information"), 0)
+
+18
+00:01:04,829 --> 00:01:04,829
+49. Click "Career Summary"
+
+19
+00:01:05,172 --> 00:01:05,172
+53. delay(2, CONTINUE_ON_FAILURE)
+
+20
+00:01:07,179 --> 00:01:07,179
+57. verifyElementNotVisibleInViewport(findTestObject("Smoke Test/People - My record/Viewport - Objects/Viewport - My record - Contact information"), 1, CONTINUE_ON_FAILURE)
+
+21
+00:01:07,517 --> 00:01:07,517
+61. verifyElementVisibleInViewport(findTestObject("Smoke Test/People - My record/Viewport - Objects/Viewport - My record - Career Summary"), 0)
+
+22
+00:01:07,896 --> 00:01:07,896
+67. Click "Roles"
+
+23
+00:01:08,258 --> 00:01:08,258
+71. delay(2, CONTINUE_ON_FAILURE)
+
+24
+00:01:10,262 --> 00:01:10,262
+75. verifyElementNotVisibleInViewport(findTestObject("Smoke Test/People - My record/Viewport - Objects/Viewport - My record - Career Summary"), 1, CONTINUE_ON_FAILURE)
+
+25
+00:01:10,579 --> 00:01:10,579
+79. verifyElementVisibleInViewport(findTestObject("Smoke Test/People - My record/Viewport - Objects/Viewport - My record - Roles"), 0)
+
+26
+00:01:10,933 --> 00:01:10,933
+85. Click "Widgets"
+
+27
+00:01:11,276 --> 00:01:11,276
+89. delay(2, CONTINUE_ON_FAILURE)
+
+28
+00:01:13,282 --> 00:01:13,282
+93. verifyElementNotVisibleInViewport(findTestObject("Smoke Test/People - My record/Viewport - Objects/Viewport - My record - Roles"), 1, CONTINUE_ON_FAILURE)
+
+29
+00:01:13,600 --> 00:01:13,600
+97. verifyElementVisibleInViewport(findTestObject("Smoke Test/People - My record/Viewport - Objects/Viewport - My record - Widgets"), 0)
+
+30
+00:01:13,951 --> 00:01:13,951
+103. Click "Skills Overview"
+
+31
+00:01:14,289 --> 00:01:14,289
+107. delay(2, CONTINUE_ON_FAILURE)
+
+32
+00:01:16,296 --> 00:01:16,296
+111. verifyElementNotVisibleInViewport(findTestObject("Smoke Test/People - My record/Viewport - Objects/Viewport - My record - Widgets"), 1, CONTINUE_ON_FAILURE)
+
+33
+00:01:16,614 --> 00:01:16,614
+115. verifyElementVisibleInViewport(findTestObject("Smoke Test/People - My record/Viewport - Objects/Viewport - My record - Skills Overview"), 0)
+
+34
+00:01:16,948 --> 00:01:16,948
+121. Click "ERNI Trainings"
+
+35
+00:01:17,294 --> 00:01:17,294
+125. delay(2, CONTINUE_ON_FAILURE)
+
+36
+00:01:19,298 --> 00:01:19,298
+129. verifyElementNotVisibleInViewport(findTestObject("Smoke Test/People - My record/Viewport - Objects/Viewport - My record - Skills Overview"), 1, CONTINUE_ON_FAILURE)
+
+37
+00:01:19,617 --> 00:01:19,617
+133. verifyElementVisibleInViewport(findTestObject("Smoke Test/People - My record/Viewport - Objects/Viewport - My record - ERNI Trainings"), 0)
+
+38
+00:01:19,935 --> 00:01:19,935
+139. Click "Education"
+
+39
+00:01:20,269 --> 00:01:20,269
+143. delay(2, CONTINUE_ON_FAILURE)
+
+40
+00:01:22,273 --> 00:01:22,273
+147. verifyElementNotVisibleInViewport(findTestObject("Smoke Test/People - My record/Viewport - Objects/Viewport - My record - ERNI Trainings"), 1, CONTINUE_ON_FAILURE)
+
+41
+00:01:22,599 --> 00:01:22,599
+151. verifyElementVisibleInViewport(findTestObject("Smoke Test/People - My record/Viewport - Objects/Viewport - My record - Education"), 0)
+
+42
+00:01:22,923 --> 00:01:22,923
+157. Click "Experience"
+
+43
+00:01:23,268 --> 00:01:23,268
+161. delay(2, CONTINUE_ON_FAILURE)
+
+44
+00:01:25,275 --> 00:01:25,275
+165. verifyElementNotVisibleInViewport(findTestObject("Smoke Test/People - My record/Viewport - Objects/Viewport - My record - Education"), 1, CONTINUE_ON_FAILURE)
+
+45
+00:01:25,593 --> 00:01:25,593
+169. verifyElementInViewport(findTestObject("Smoke Test/People - My record/Viewport - Objects/Viewport - My record - Experience"), 0)
+
+46
+00:01:25,928 --> 00:01:25,928
+175. Click "Projects"
+
+47
+00:01:26,283 --> 00:01:26,283
+179. delay(2, CONTINUE_ON_FAILURE)
+
+48
+00:01:28,289 --> 00:01:28,289
+183. verifyElementNotVisibleInViewport(findTestObject("Smoke Test/People - My record/Viewport - Objects/Viewport - My record - Experience"), 1, CONTINUE_ON_FAILURE)
+
+49
+00:01:28,612 --> 00:01:28,612
+187. verifyElementVisibleInViewport(findTestObject("Smoke Test/People - My record/Viewport - Objects/Viewport - My record - Projects"), 0)
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>People - People Search - Verify Page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fc5a65f7-01b1-4ac6-a308-198ff703ba86</testCaseGuid>
+   <variable>
+      <defaultValue>'https://connect-test.erninet.ch/3#Home'</defaultValue>
+      <description></description>
+      <id>b8f41781-08c2-46c5-a011-e2c6243974d7</id>
+      <masked>false</masked>
+      <name>a</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+1
+00:00:00,326 --> 00:00:00,326
+1. callTestCase(findTestCase("Modular Component/FIRST TC Open Connect (Delay 10s)"), ["URL":"https://connect-test.erninet.ch/3#Home"], STOP_ON_FAILURE)
+
+2
+00:00:00,414 --> 00:00:00,414
+1. openBrowser("")
+

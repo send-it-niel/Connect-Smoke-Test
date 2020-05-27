@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description>Copy Last week &quot;Capacity_Allocation_Report&quot; on Sheet 1.</description>
+   <name>Connect - Verify Report - Available Capacity</name>
+   <tag></tag>
+   <containsHeaders>false</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>2f6bec06-c8aa-4380-b8d3-70d3f0d08445</dataFileGUID>
+   <dataSourceUrl>C:\Users\can\Desktop\Projects\Connect\Katalon Capacity Allocation.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>Report Available Capacity</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

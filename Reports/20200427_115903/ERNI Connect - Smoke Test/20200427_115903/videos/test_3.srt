@@ -1,0 +1,56 @@
+1
+00:00:00,241 --> 00:00:00,241
+1. callTestCase(findTestCase("Modular Component/FIRST TC Open Connect (Delay 10s)"), ["URL":"https://connect-test.erninet.ch/3#Home"], STOP_ON_FAILURE)
+
+2
+00:00:00,316 --> 00:00:00,316
+1. openBrowser("")
+
+3
+00:00:00,456 --> 00:00:00,456
+5. maximizeWindow()
+
+4
+00:00:00,472 --> 00:00:00,472
+9. navigateToUrl(TEST)
+
+5
+00:00:00,541 --> 00:00:00,541
+13. delay(5)
+
+6
+00:00:05,553 --> 00:00:05,553
+5. callTestCase(findTestCase("Modular Component/Click - Project Allocation"), [:], STOP_ON_FAILURE)
+
+7
+00:00:05,846 --> 00:00:05,847
+1. delay(10)
+
+8
+00:00:15,850 --> 00:00:15,850
+5. click(findTestObject("Smoke Test/Capacity Management - Project Allocation/Link/Link - Dashboard - Project Allocation"), CONTINUE_ON_FAILURE)
+
+9
+00:00:16,231 --> 00:00:16,231
+9. delay(10, CONTINUE_ON_FAILURE)
+
+10
+00:00:26,241 --> 00:00:26,242
+9. verifyElementVisibleInViewport(findTestObject("Smoke Test/Capacity Management - Project Allocation/Viewports/Viewport - Project Allocation - Last Name"), 1, CONTINUE_ON_FAILURE)
+
+11
+00:00:26,571 --> 00:00:26,571
+13. verifyElementVisibleInViewport(findTestObject("Smoke Test/Capacity Management - Project Allocation/Viewports/Viewport - Project Allocation - First Name"), 1, CONTINUE_ON_FAILURE)
+
+12
+00:00:26,902 --> 00:00:26,902
+17. verifyElementVisibleInViewport(findTestObject("Smoke Test/Capacity Management - Project Allocation/Viewports/Viewport - Project Allocation - Domicile"), 1, CONTINUE_ON_FAILURE)
+
+13
+00:00:27,238 --> 00:00:27,238
+21. verifyElementVisibleInViewport(findTestObject("Smoke Test/Capacity Management - Project Allocation/Viewports/Viewport - Project Allocation - Level"), 1, CONTINUE_ON_FAILURE)
+
+14
+00:00:27,560 --> 00:00:27,560
+25. verifyElementVisibleInViewport(findTestObject("Smoke Test/Capacity Management - Project Allocation/Viewports/Viewport - Project Allocation - Entry Date"), 1, CONTINUE_ON_FAILURE)
+

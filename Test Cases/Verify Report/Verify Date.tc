@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verifying Reports via katalon is not viable since graph displayed is flat image.</description>
+   <name>Verify Date</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>68ac4e4f-21b8-4ea2-b84c-dac228ac2594</testCaseGuid>
+</TestCaseEntity>

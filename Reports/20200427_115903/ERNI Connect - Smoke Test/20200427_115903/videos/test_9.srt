@@ -1,0 +1,68 @@
+1
+00:00:00,191 --> 00:00:00,191
+1. callTestCase(findTestCase("Modular Component/FIRST TC Open Connect (Delay 10s)"), ["URL":"https://connect-test.erninet.ch/3#Home"], STOP_ON_FAILURE)
+
+2
+00:00:00,259 --> 00:00:00,259
+1. openBrowser("")
+
+3
+00:00:00,390 --> 00:00:00,390
+5. maximizeWindow()
+
+4
+00:00:00,401 --> 00:00:00,401
+9. navigateToUrl(TEST)
+
+5
+00:00:00,427 --> 00:00:00,427
+13. delay(5)
+
+6
+00:00:05,437 --> 00:00:05,437
+5. callTestCase(findTestCase("Modular Component/Click - People Search (Delay 10s)"), [:], STOP_ON_FAILURE)
+
+7
+00:00:05,506 --> 00:00:05,506
+1. delay(10)
+
+8
+00:00:15,510 --> 00:00:15,510
+5. click(findTestObject("Smoke Test/People - People Search/Link - Objects/Link - Dashboard - People Search"))
+
+9
+00:00:15,889 --> 00:00:15,889
+9. delay(10)
+
+10
+00:00:25,903 --> 00:00:25,903
+11. Verify "People Search" Tab is Visible
+
+11
+00:00:26,232 --> 00:00:26,232
+17. Verify "Enity Dropdown" is Visible
+
+12
+00:00:26,563 --> 00:00:26,563
+23. Verify "Search Field" is Visible
+
+13
+00:00:27,246 --> 00:00:27,246
+29. Verify "Filter" dropdown is Visible
+
+14
+00:00:27,936 --> 00:00:27,936
+35. Verify "Show Columns" Dropdown is Visible
+
+15
+00:00:28,635 --> 00:00:28,635
+41. Verify "Export" Button is Visible
+
+16
+00:00:28,968 --> 00:00:28,968
+47. Verify Main Table is Visible
+
+17
+00:00:29,291 --> 00:00:29,291
+53. Verify ERNI Logo is Visible
+
