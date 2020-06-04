@@ -1,0 +1,57 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ERNI Connect - Smoke Test,Chrome 83.0.4103.61,,,2020-05-28 17:34:34,2020-05-28 17:57:29,22m - 54.786s,FAILED
+,,,,,,,
+Test Cases/Smoke Test/Capacity Management - Available Employees - Verify Table,Chrome 83.0.4103.61,Verify Objects on headers of table in Capacity Management,,2020-05-28 17:34:35,2020-05-28 17:35:33,58.750s,PASSED
+,,,,,,,
+Test Cases/Smoke Test/Capacity Management - Available Employees,Chrome 83.0.4103.61,Verify Objects on Ribbon of Capacity Management,,2020-05-28 17:35:33,2020-05-28 17:36:30,57.099s,PASSED
+,,,,,,,
+Test Cases/Smoke Test/Capacity Management - Project Allocation - Table,Chrome 83.0.4103.61,Verify Objects on headers of table in Project Allocation,,2020-05-28 17:36:30,2020-05-28 17:37:32,1m - 1.081s,PASSED
+,,,,,,,
+Test Cases/Smoke Test/Capacity Management - Project Allocation,Chrome 83.0.4103.61,Verify Objects on Ribbon of Project Allocation,,2020-05-28 17:37:32,2020-05-28 17:40:07,2m - 35.902s,PASSED
+,,,,,,,
+Test Cases/Smoke Test/Customers - Customer Search - Verify Page,Chrome 83.0.4103.61,,,2020-05-28 17:40:07,2020-05-28 17:41:04,56.317s,PASSED
+,,,,,,,
+Test Cases/Smoke Test/Customers - Customer Search - Verify Table,Chrome 83.0.4103.61,,,2020-05-28 17:41:04,2020-05-28 17:41:58,53.908s,PASSED
+,,,,,,,
+Test Cases/Smoke Test/People - My Record -View,Chrome 83.0.4103.61,51017,,2020-05-28 17:41:58,2020-05-28 17:44:25,2m - 26.914s,PASSED
+,,,,,,,
+Test Cases/Smoke Test/People - People Search - Verify Page,Chrome 83.0.4103.61,,,2020-05-28 17:44:25,2020-05-28 17:45:17,51.846s,PASSED
+,,,,,,,
+Test Cases/Smoke Test/People - People Search - Verify Table,Chrome 83.0.4103.61,,,2020-05-28 17:45:17,2020-05-28 17:46:11,54.094s,PASSED
+,,,,,,,
+Test Cases/Smoke Test/Report - All Employees Forecast,Chrome 83.0.4103.61,,,2020-05-28 17:46:11,2020-05-28 17:46:49,38.668s,PASSED
+,,,,,,,
+Test Cases/Smoke Test/Report - Available Capacity Forecast - Graph,Chrome 83.0.4103.61,"1. Click ""Available capacity Forecast Cumulated""
+2. Verify if Graph Table is Visibile in Viewport after 10 seconds",,2020-05-28 17:46:49,2020-05-28 17:47:32,42.255s,PASSED
+,,,,,,,
+Test Cases/Smoke Test/Report - Available Capacity,Chrome 83.0.4103.61,,,2020-05-28 17:47:32,2020-05-28 17:48:16,43.920s,PASSED
+,,,,,,,
+Test Cases/Smoke Test/Report - Available Employees,Chrome 83.0.4103.61,,,2020-05-28 17:48:16,2020-05-28 17:49:00,44.001s,PASSED
+,,,,,,,
+Test Cases/Smoke Test/Report - Top Experiences,Chrome 83.0.4103.61,"1. Click ""Top Experience""|
+2. Verify if Table Headers are visible in Viewport after 10 seconds",,2020-05-28 17:49:00,2020-05-28 17:49:48,48.245s,PASSED
+,,,,,,,
+Test Cases/Smoke Test/Trainings - Curriculum Trainings Overview,Chrome 83.0.4103.61,,,2020-05-28 17:49:48,2020-05-28 17:50:41,52.799s,PASSED
+,,,,,,,
+Test Cases/Smoke Test/Trainings - Library,Chrome 83.0.4103.61,"1. Click ""Library""
+2. Verify each Items after 10 seconds",,2020-05-28 17:50:41,2020-05-28 17:51:31,50.790s,PASSED
+,,,,,,,
+Test Cases/Smoke Test/Trainings - Training Employee Overview,Chrome 83.0.4103.61,,,2020-05-28 17:51:31,2020-05-28 17:52:20,48.646s,PASSED
+,,,,,,,
+Test Cases/Verify Import/Go to People Search - All,Chrome 83.0.4103.61,"1. Click ""People Search""
+2. Set entity = All
+3. Verify loading is finished after 1- seconds",,2020-05-28 17:52:20,2020-05-28 17:53:30,1m - 10.288s,FAILED
+,,,,,,,
+Test Cases/Smoke Test/Employee Level Checker/People Search - EPH,Chrome 83.0.4103.61,"1. Click ""People Search""
+2. Verify if loading is done after 10 seconds",,2020-05-28 17:53:30,2020-05-28 17:54:15,44.826s,PASSED
+,,,,,,,
+Test Cases/Smoke Test/Employee Level Checker/People Search - Check Employee Level,Chrome 83.0.4103.61,"1. Click ""People Search""
+2. Search for ""employee"" variable 
+3. Verify ""level"" variable is displayed
+4. Verify ""other"" string is not displayed",,2020-05-28 17:54:15,2020-05-28 17:55:17,1m - 1.471s,PASSED
+,,,,,,,
+Test Cases/Verify Report/Verify - Available Capacity Cumulated,Chrome 83.0.4103.61,,,2020-05-28 17:55:17,2020-05-28 17:55:57,40.658s,PASSED
+,,,,,,,
+Test Cases/Smoke Test/Admin - Create New Person,Chrome 83.0.4103.61,,,2020-05-28 17:55:57,2020-05-28 17:56:36,39.120s,PASSED
+,,,,,,,
+Test Cases/Smoke Test/People Search - Verify employee selected,Chrome 83.0.4103.61,,,2020-05-28 17:56:36,2020-05-28 17:57:29,52.587s,PASSED

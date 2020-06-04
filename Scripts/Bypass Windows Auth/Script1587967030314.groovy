@@ -20,17 +20,17 @@ import java.awt.Toolkit as Toolkit
 import java.awt.datatransfer.DataFlavor as DataFlavor
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.openBrowser('https://connect-test.erninet.ch/')
 
 WebUI.maximizeWindow()
 
-WebUI.delay(2)
-
-WebUI.authenticate('https://connect-test.erninet.ch/', a, b, 5)
+WebUI.authenticate('https://connect-test.erninet.ch/', '', '', 5)
 
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Smoke Test/HTML 5 Link'))
 
-WebUI.delay(5)
+WebUI.refresh()
+
+WebUI.delay(3)
 

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Connect Missing Language</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>34121330-a2ee-49aa-bc22-e4a5c08274b1</testSuiteGuid>
+   <testCaseLink>
+      <guid>fd6918f4-81df-48c9-b974-e960179dc069</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Smoke Test/My Record - Check Language</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>ee876882-e9b6-4d71-820f-9a5756eb2bfc</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/List of Missing Countries</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>ee876882-e9b6-4d71-820f-9a5756eb2bfc</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>ENGLISH</value>
+         <variableId>b803867b-4b6b-4a6e-b7c3-3c9fe9ea188a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4d132db6-146a-4450-b4d0-027b3c9d8932</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>bdee13b8-4043-4b1c-8d9d-01fce775a0a4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>77f301a0-0850-4111-b7fd-fbf6cf0afc4f</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

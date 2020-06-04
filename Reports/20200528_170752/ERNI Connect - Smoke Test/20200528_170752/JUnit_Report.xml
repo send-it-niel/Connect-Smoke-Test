@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ERNI Connect - Smoke Test" time="1315.906" tests="23" failures="1" errors="0">
+   <testsuite name="ERNI Connect - Smoke Test" tests="23" failures="1" errors="0" time="1315.906" timestamp="2020-05-28 17:07:58" hostname="can - A-5CG94703SD.erni2.ch" id="Test Suites/ERNI Connect - Smoke Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\can\\Katalon Studio\\ERNI Connect - Smoke Test\\Reports\\20200528_170752\\ERNI Connect - Smoke Test\\20200528_170752"/>
+         <property name="logFiles" value="C:\\Users\\can\\Katalon Studio\\ERNI Connect - Smoke Test\\Reports\\20200528_170752\\ERNI Connect - Smoke Test\\20200528_170752\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="can - A-5CG94703SD.erni2.ch"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.3.0.1"/>
+         <property name="browser" value="Chrome 83.0.4103.61"/>
+         <property name="hostAddress" value="10.180.98.124"/>
+         <property name="sessionId" value="93985a6d2b8b9008865a4b5137677c20"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Smoke Test/Capacity Management - Available Employees - Verify Table" time="62.142" classname="Test Cases/Smoke Test/Capacity Management - Available Employees - Verify Table" status="PASSED">
+         <system-out><![CDATA[2020-05-28 17:07:59 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/Capacity Management - Available Employees - Verify Table: Test Cases/Smoke Test/Capacity Management - Available Employees - Verify Table]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/Capacity Management - Available Employees" time="56.118" classname="Test Cases/Smoke Test/Capacity Management - Available Employees" status="PASSED">
+         <system-out><![CDATA[2020-05-28 17:09:01 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/Capacity Management - Available Employees: Test Cases/Smoke Test/Capacity Management - Available Employees]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/Capacity Management - Project Allocation - Table" time="53.635" classname="Test Cases/Smoke Test/Capacity Management - Project Allocation - Table" status="PASSED">
+         <system-out><![CDATA[2020-05-28 17:09:57 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/Capacity Management - Project Allocation - Table: Test Cases/Smoke Test/Capacity Management - Project Allocation - Table]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/Capacity Management - Project Allocation" time="54.329" classname="Test Cases/Smoke Test/Capacity Management - Project Allocation" status="PASSED">
+         <system-out><![CDATA[2020-05-28 17:10:51 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/Capacity Management - Project Allocation: Test Cases/Smoke Test/Capacity Management - Project Allocation]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/Customers - Customer Search - Verify Page" time="58.031" classname="Test Cases/Smoke Test/Customers - Customer Search - Verify Page" status="PASSED">
+         <system-out><![CDATA[2020-05-28 17:11:45 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/Customers - Customer Search - Verify Page: Test Cases/Smoke Test/Customers - Customer Search - Verify Page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/Customers - Customer Search - Verify Table" time="56.33" classname="Test Cases/Smoke Test/Customers - Customer Search - Verify Table" status="PASSED">
+         <system-out><![CDATA[2020-05-28 17:12:43 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/Customers - Customer Search - Verify Table: Test Cases/Smoke Test/Customers - Customer Search - Verify Table]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/People - My Record -View" time="123.963" classname="Test Cases/Smoke Test/People - My Record -View" status="PASSED">
+         <system-out><![CDATA[2020-05-28 17:13:39 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/People - My Record -View: Test Cases/Smoke Test/People - My Record -View]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/People - People Search - Verify Page" time="56.042" classname="Test Cases/Smoke Test/People - People Search - Verify Page" status="PASSED">
+         <system-out><![CDATA[2020-05-28 17:15:43 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/People - People Search - Verify Page: Test Cases/Smoke Test/People - People Search - Verify Page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/People - People Search - Verify Table" time="56.648" classname="Test Cases/Smoke Test/People - People Search - Verify Table" status="PASSED">
+         <system-out><![CDATA[2020-05-28 17:16:39 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/People - People Search - Verify Table: Test Cases/Smoke Test/People - People Search - Verify Table]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/Report - All Employees Forecast" time="43.791" classname="Test Cases/Smoke Test/Report - All Employees Forecast" status="PASSED">
+         <system-out><![CDATA[2020-05-28 17:17:36 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/Report - All Employees Forecast: Test Cases/Smoke Test/Report - All Employees Forecast]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/Report - Available Capacity Forecast - Graph" time="49.663" classname="Test Cases/Smoke Test/Report - Available Capacity Forecast - Graph" status="PASSED">
+         <system-out><![CDATA[2020-05-28 17:18:20 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/Report - Available Capacity Forecast - Graph: Test Cases/Smoke Test/Report - Available Capacity Forecast - Graph]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/Report - Available Capacity" time="48.015" classname="Test Cases/Smoke Test/Report - Available Capacity" status="PASSED">
+         <system-out><![CDATA[2020-05-28 17:19:10 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/Report - Available Capacity: Test Cases/Smoke Test/Report - Available Capacity]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/Report - Available Employees" time="47.969" classname="Test Cases/Smoke Test/Report - Available Employees" status="PASSED">
+         <system-out><![CDATA[2020-05-28 17:19:58 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/Report - Available Employees: Test Cases/Smoke Test/Report - Available Employees]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/Report - Top Experiences" time="44.868" classname="Test Cases/Smoke Test/Report - Top Experiences" status="PASSED">
+         <system-out><![CDATA[2020-05-28 17:20:46 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/Report - Top Experiences: Test Cases/Smoke Test/Report - Top Experiences]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/Trainings - Curriculum Trainings Overview" time="51.835" classname="Test Cases/Smoke Test/Trainings - Curriculum Trainings Overview" status="PASSED">
+         <system-out><![CDATA[2020-05-28 17:21:31 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/Trainings - Curriculum Trainings Overview: Test Cases/Smoke Test/Trainings - Curriculum Trainings Overview]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/Trainings - Library" time="55.382" classname="Test Cases/Smoke Test/Trainings - Library" status="PASSED">
+         <system-out><![CDATA[2020-05-28 17:22:22 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/Trainings - Library: Test Cases/Smoke Test/Trainings - Library]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/Trainings - Training Employee Overview" time="46.17" classname="Test Cases/Smoke Test/Trainings - Training Employee Overview" status="PASSED">
+         <system-out><![CDATA[2020-05-28 17:23:18 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/Trainings - Training Employee Overview: Test Cases/Smoke Test/Trainings - Training Employee Overview]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Verify Import/Go to People Search - All" time="93.252" classname="Test Cases/Verify Import/Go to People Search - All" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Verify Import/Go to People Search - All FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify if object 'Object Repository/Smoke Test/People - People Search/Viewport - Objects/Loading Animation' is not visible in viewport
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleInViewportKeyword.verifyElementNotVisibleInViewport(VerifyElementNotVisibleInViewportKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleInViewportKeyword.execute(VerifyElementNotVisibleInViewportKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotInViewport(WebUiBuiltInKeywords.groovy:3129)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotInViewport$12.call(Unknown Source)
+	at Go to People Search - All.run(Go to People Search - All:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590656872777.run(TempTestSuite1590656872777.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Smoke Test/People - People Search/Viewport - Objects/Loading Animation' is present but is visible in viewport
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleInViewportKeyword$_verifyElementNotVisibleInViewport_closure1.doCall(VerifyElementNotVisibleInViewportKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleInViewportKeyword$_verifyElementNotVisibleInViewport_closure1.call(VerifyElementNotVisibleInViewportKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-05-28 17:24:04 - [TEST_CASE][FAILED] - Test Cases/Verify Import/Go to People Search - All: Test Cases/Verify Import/Go to People Search - All FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify if object 'Object Repository/Smoke Test/People - People Search/Viewport - Objects/Loading Animation' is not visible in viewport
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleInViewportKeyword.verifyElementNotVisibleInViewport(VerifyElementNotVisibleInViewportKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleInViewportKeyword.execute(VerifyElementNotVisibleInViewportKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotInViewport(WebUiBuiltInKeywords.groovy:3129)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotInViewport$12.call(Unknown Source)
+	at Go to People Search - All.run(Go to People Search - All:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590656872777.run(TempTestSuite1590656872777.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Smoke Test/People - People Search/Viewport - Objects/Loading Animation' is present but is visible in viewport
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleInViewportKeyword$_verifyElementNotVisibleInViewport_closure1.doCall(VerifyElementNotVisibleInViewportKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleInViewportKeyword$_verifyElementNotVisibleInViewport_closure1.call(VerifyElementNotVisibleInViewportKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+         <system-err><![CDATA[2020-05-28 17:24:04 - [TEST_CASE][FAILED] - Test Cases/Verify Import/Go to People Search - All: Test Cases/Verify Import/Go to People Search - All FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify if object 'Object Repository/Smoke Test/People - People Search/Viewport - Objects/Loading Animation' is not visible in viewport
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleInViewportKeyword.verifyElementNotVisibleInViewport(VerifyElementNotVisibleInViewportKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleInViewportKeyword.execute(VerifyElementNotVisibleInViewportKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotInViewport(WebUiBuiltInKeywords.groovy:3129)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotInViewport$12.call(Unknown Source)
+	at Go to People Search - All.run(Go to People Search - All:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590656872777.run(TempTestSuite1590656872777.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Smoke Test/People - People Search/Viewport - Objects/Loading Animation' is present but is visible in viewport
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleInViewportKeyword$_verifyElementNotVisibleInViewport_closure1.doCall(VerifyElementNotVisibleInViewportKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleInViewportKeyword$_verifyElementNotVisibleInViewport_closure1.call(VerifyElementNotVisibleInViewportKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/Employee Level Checker/People Search - EPH" time="44.797" classname="Test Cases/Smoke Test/Employee Level Checker/People Search - EPH" status="PASSED">
+         <system-out><![CDATA[2020-05-28 17:25:37 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/Employee Level Checker/People Search - EPH: Test Cases/Smoke Test/Employee Level Checker/People Search - EPH]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/Employee Level Checker/People Search - Check Employee Level" time="68.102" classname="Test Cases/Smoke Test/Employee Level Checker/People Search - Check Employee Level" status="PASSED">
+         <system-out><![CDATA[2020-05-28 17:26:22 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/Employee Level Checker/People Search - Check Employee Level: Test Cases/Smoke Test/Employee Level Checker/People Search - Check Employee Level]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Verify Report/Verify - Available Capacity Cumulated" time="47.12" classname="Test Cases/Verify Report/Verify - Available Capacity Cumulated" status="PASSED">
+         <system-out><![CDATA[2020-05-28 17:27:30 - [TEST_CASE][PASSED] - Test Cases/Verify Report/Verify - Available Capacity Cumulated: Test Cases/Verify Report/Verify - Available Capacity Cumulated]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/Admin - Create New Person" time="38.166" classname="Test Cases/Smoke Test/Admin - Create New Person" status="PASSED">
+         <system-out><![CDATA[2020-05-28 17:28:17 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/Admin - Create New Person: Test Cases/Smoke Test/Admin - Create New Person]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test/People Search - Verify employee selected" time="55.676" classname="Test Cases/Smoke Test/People Search - Verify employee selected" status="PASSED">
+         <system-out><![CDATA[2020-05-28 17:28:55 - [TEST_CASE][PASSED] - Test Cases/Smoke Test/People Search - Verify employee selected: Test Cases/Smoke Test/People Search - Verify employee selected]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-28 17:07:58 - [TEST_SUITE][FAILED] - ERNI Connect - Smoke Test: Test Cases/Verify Import/Go to People Search - All FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify if object 'Object Repository/Smoke Test/People - People Search/Viewport - Objects/Loading Animation' is not visible in viewport
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleInViewportKeyword.verifyElementNotVisibleInViewport(VerifyElementNotVisibleInViewportKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleInViewportKeyword.execute(VerifyElementNotVisibleInViewportKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotInViewport(WebUiBuiltInKeywords.groovy:3129)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotInViewport$12.call(Unknown Source)
+	at Go to People Search - All.run(Go to People Search - All:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590656872777.run(TempTestSuite1590656872777.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Smoke Test/People - People Search/Viewport - Objects/Loading Animation' is present but is visible in viewport
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleInViewportKeyword$_verifyElementNotVisibleInViewport_closure1.doCall(VerifyElementNotVisibleInViewportKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleInViewportKeyword$_verifyElementNotVisibleInViewport_closure1.call(VerifyElementNotVisibleInViewportKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-05-28 17:07:58 - [TEST_SUITE][FAILED] - ERNI Connect - Smoke Test: Test Cases/Verify Import/Go to People Search - All FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify if object 'Object Repository/Smoke Test/People - People Search/Viewport - Objects/Loading Animation' is not visible in viewport
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleInViewportKeyword.verifyElementNotVisibleInViewport(VerifyElementNotVisibleInViewportKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleInViewportKeyword.execute(VerifyElementNotVisibleInViewportKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotInViewport(WebUiBuiltInKeywords.groovy:3129)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotInViewport$12.call(Unknown Source)
+	at Go to People Search - All.run(Go to People Search - All:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1590656872777.run(TempTestSuite1590656872777.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Smoke Test/People - People Search/Viewport - Objects/Loading Animation' is present but is visible in viewport
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleInViewportKeyword$_verifyElementNotVisibleInViewport_closure1.doCall(VerifyElementNotVisibleInViewportKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleInViewportKeyword$_verifyElementNotVisibleInViewport_closure1.call(VerifyElementNotVisibleInViewportKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

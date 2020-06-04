@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Verify Objects on Ribbon of Project Allocation</description>
    <name>Capacity Management - Project Allocation</name>
    <tag></tag>
    <comment></comment>

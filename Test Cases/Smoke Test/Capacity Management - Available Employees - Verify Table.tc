@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Verify Objects on headers of table in Capacity Management</description>
    <name>Capacity Management - Available Employees - Verify Table</name>
    <tag></tag>
    <comment></comment>

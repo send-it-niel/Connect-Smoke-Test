@@ -167,6 +167,12 @@
       <testCaseId>Test Cases/Verify Report/Verify - Available Capacity Cumulated</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>84c91cd8-391a-46c0-bd95-3382aa8cc292</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Smoke Test/Admin - Create New Person</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>fc4fc8d7-f0a3-4ce3-82fb-b6329831ebda</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

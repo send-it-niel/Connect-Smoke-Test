@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>My Record - Check Language</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0b82ab3f-b9c7-4d11-beb5-bbf3b11b576d</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('List of Missing Countries').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>b803867b-4b6b-4a6e-b7c3-3c9fe9ea188a</id>
+      <masked>false</masked>
+      <name>Eng</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4d132db6-146a-4450-b4d0-027b3c9d8932</id>
+      <masked>false</masked>
+      <name>Fre</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bdee13b8-4043-4b1c-8d9d-01fce775a0a4</id>
+      <masked>false</masked>
+      <name>Ger</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>77f301a0-0850-4111-b7fd-fbf6cf0afc4f</id>
+      <masked>false</masked>
+      <name>Spa</name>
+   </variable>
+</TestCaseEntity>

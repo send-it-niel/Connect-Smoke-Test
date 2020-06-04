@@ -25,6 +25,6 @@ WebUI.verifyElementVisibleInViewport(findTestObject('Smoke Test/Admin/Create New
 
 WebUI.verifyTextPresent('First Name', false)
 
-WebUI.verifyElementVisibleInViewport(findTestObject('Smoke Test/Admin/Create New Person/Viewports/Viewport - Mandatory Trainings'), 
-    0)
+WebUI.verifyElementVisible(findTestObject('Smoke Test/Admin/Create New Person/Viewports/Viewport - Mandatory Trainings'), 
+    FailureHandling.STOP_ON_FAILURE)
 
