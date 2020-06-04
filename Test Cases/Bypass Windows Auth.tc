@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Handles Authentication modal &amp; 'Indefinite Loading' bug.</description>
    <name>Bypass Windows Auth</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>bc8d7efa-6b72-498c-accb-9e9d26bb1f27</testCaseGuid>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'1hjDo9r9sXU='</defaultValue>
       <description></description>
       <id>eb0d6fc9-1571-4574-aca0-5e5e90f30e3b</id>
       <masked>false</masked>
