@@ -24,22 +24,11 @@ WebUI.openBrowser('https://connect-test.erninet.ch/')
 
 WebUI.maximizeWindow(FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(1)
+WebUI.waitForPageLoad(1)
 
-'Handle Authentication Modal: Authenticate then Click HTML 5 if displayed. Click HTML 5 if not.'
-if (WebUI.verifyTextNotPresent('beta-version', false, FailureHandling.CONTINUE_ON_FAILURE)) {
-    'Please fill-up \'userName\' & \'password\' fields'
-    WebUI.authenticate('https://connect-test.erninet.ch/', '', '', 5, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.authenticate('https://connect-test.erninet.ch/', '', '', 5, FailureHandling.CONTINUE_ON_FAILURE)
 
-    WebUI.click(findTestObject('Smoke Test/HTML 5 Link'))
-} else {
-    WebUI.click(findTestObject('Smoke Test/HTML 5 Link'))
-}
+WebUI.click(findTestObject('Smoke Test/HTML 5 Link'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(3)
-
-'Refresh if encountered Indefinite loading.'
-if (WebUI.verifyTextNotPresent('Your CV and everyone', false, FailureHandling.CONTINUE_ON_FAILURE)) {
-    WebUI.refresh()
-}
+WebUI.waitForPageLoad(5)
 

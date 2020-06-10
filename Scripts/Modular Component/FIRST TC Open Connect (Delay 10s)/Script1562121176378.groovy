@@ -17,5 +17,5 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 import java.awt.Robot as Robot
 import java.awt.event.KeyEvent as KeyEvent
 
-WebUI.callTestCase(findTestCase('Bypass Windows Auth'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Bypass Windows Auth'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
